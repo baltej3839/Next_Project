@@ -1,6 +1,8 @@
 import Image from "next/image";
+import axios from "axios"
 
-export default function Home() {
+
+export default async function Home() {
   return ( <>
       Hi there
   </> );
